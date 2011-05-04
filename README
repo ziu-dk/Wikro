@@ -1,0 +1,20 @@
+
+Wikro
+=====
+
+https://github.com/ziu-dk/Wikro
+
+Wikro is a small wiki system. The name is made up of the terms Wiki 
+and Micro.
+
+The design goals of the Wikro system are:
+* A single file for easy deployment (exanding when run first time)
+* Simple and fast
+
+From a technical perspective the system is solely written in PHP with 
+a SQLite database as backend. PHP is chosen because it is the most common 
+web language (as far as I know). The SQLite backend is chosen because of 
+the simplicity (it is easy to backup and it is fast). Furthermore the 
+Wikro system is build for small websites, which does not benefit that 
+much from using a large enterprise database backend.
+
